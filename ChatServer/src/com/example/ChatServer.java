@@ -10,7 +10,7 @@ public class ChatServer {
 ArrayList<Client> clients = new ArrayList<>();
     ServerSocket serverSocket;
 ChatServer() throws IOException {
-    // создаем серверный сокет на порту 1234
+    // создаем серверн сокет на порту 1234
     serverSocket = new ServerSocket(1234);
 }
 
